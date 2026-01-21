@@ -1,7 +1,7 @@
 {
     "name": "pawanmore/amazon-creatorsapi-php-sdk",
     "type": "library",
-    "description": "Amazon Creators API PHP SDK (v1.1.2)",
+    "description": "Amazon Creators API PHP SDK (v1.0.0)",
     "keywords": [
         "amazon",
         "creators",
