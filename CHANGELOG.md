@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-01-22
+
+### Added
+- Laravel cache support for OAuth2 token management
+  - Methods to check Laravel cache availability, retrieve, store, and clear tokens
+  - Enhanced token retrieval to prioritize Laravel cache
+  - Automatic token storage in Laravel cache when refreshing tokens
+  - Cache key generation for consistent token storage
+  - Token status response now indicates Laravel cache availability
+
 ## [1.0.0] - 2026-01-21
 
 ### Added
